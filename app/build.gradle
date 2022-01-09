@@ -3,6 +3,8 @@ plugins {
     id 'kotlin-android'
 }
 
+apply from: "$project.rootDir/spotless.gradle"
+
 android {
     compileSdkVersion 31
     buildToolsVersion "30.0.3"
